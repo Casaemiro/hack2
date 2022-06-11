@@ -1,6 +1,7 @@
 html {
     scroll-behavior: smooth;
 }
+
 #header {
     background-color: #3770ED;
     display: flex;
@@ -365,22 +366,66 @@ a:hover {
 
 
 
-/* 
-@media screen and (max-width:600px) {
-    .full-chat-block {
-        width: 100%;
-        border-radius: 0px;
-    }
-    .chat-bar-collapsible {
+
+@media screen and (max-width:700px) {
+    #header {
+        /* background-color: black; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 1%;
+        border-bottom: 1px solid #3060c7;
+        color: yellow;
+        font-size: 0.6rem;
         position: fixed;
-        bottom: 0;
-        right: 0;
+        top: 0;
         width: 100%;
     }
-    .collapsible {
-        width: 100%;
-        border: 0px;
-        border-top: 3px solid white;
-        border-radius: 0px;
+    #download {
+        font-size: 0.8rem;
+        padding: 1px;
+        padding-left: 3px;
+        padding-right: 8px;
+        width: 100px;
+
     }
-} */
+    #logo-section img{
+        width: 80px;
+    }
+    #home-pic{
+        width: 100%;
+        margin-left: -10px;
+    }
+    #track {
+        font-size: 1.4rem;
+    }
+    #left-section {
+        width: 40%;
+    }
+    #boh {
+        font-size: 0.8rem;
+    }
+    #join {
+        font-size: 1.2rem;
+    }
+    #coming {
+        font-size: 0.7rem;
+    }
+    #left-section img{
+        width: 40%;
+    }
+    #second-section-head {
+        font-size: 2rem;
+    }
+    #sub-sections {
+        display: flex;
+        flex-direction: row;
+        /* justify-content: center; */
+        margin-top: 5%;
+        flex-wrap: wrap;
+    }
+    #sub-sections div{
+        width: 30%;
+    }
+}
