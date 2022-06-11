@@ -1,0 +1,40 @@
+#header {
+    background-color: #3770ED;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5%;
+    border-bottom: #152a58;
+    color: white;
+    font-size: 1.2rem;
+}
+body {
+    margin: 0;
+}
+#download {
+    border-radius: 30px;
+    padding: 10%;
+    width: 200px;
+    font-size: 1.2rem;
+    background-color: #e56e06e1;
+    border: none;
+}
+#logo-section {
+    margin-right: 10%;
+}
+#features {
+    margin-right: 2%;
+}
+#money {
+    margin-right: 2%;
+}
+#score {
+    margin-right: 2%;
+}
+#faq {
+    margin-right: 2%;
+}
+#fireside {
+    margin-right: 2%;
+}
